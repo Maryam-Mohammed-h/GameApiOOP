@@ -1,0 +1,124 @@
+body {
+  background-color: rgba(20, 20, 20, 0.9);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(50, 50, 50, 0.3)),
+    url(../img/wraper.png);
+
+  background-size: 100% 40%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 50px;
+  font-family: "Nerko One", cursive;
+}
+a {
+  color: #fff;
+}
+.clear {
+  clear: both;
+}
+.col-4 {
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+ul li span {
+  margin-right: 5px;
+}
+ul i {
+  color: #aaa;
+}
+.navbar {
+  background-color: rgb(58, 73, 123);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 70%);
+}
+#navbarNav a,
+.navbar h2.navbar-brand {
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar-brand img {
+  width: 20%;
+}
+#navbarNav a {
+  font-size: 0.85rem;
+}
+.display-page {
+  height: 100vh;
+}
+
+.card {
+  height: 100%;
+  color: #ddd;
+}
+.card h5 {
+  font-size: 0.875em;
+}
+.card .gamePrice {
+  background-color: rgb(58, 73, 123);
+  color: #ddd;
+  height: 2rem;
+}
+.card-header {
+  color: #aaa;
+}
+.card-links h6 {
+  background-color: #31323b;
+  padding: 7px;
+  font-size: 0.7rem;
+}
+.modal {
+  background-color: #222;
+  color: #ddd;
+}
+.modal-dialog {
+  max-width: 90%;
+}
+.modal-content {
+  background-color: transparent !important;
+}
+img.gameImage {
+  width: 100%;
+}
+.gameData h4 span {
+  margin: 2rem 1rem;
+  font-size: 0.85rem;
+  border-radius: 5px;
+  background-color: #0485b8;
+  padding: 5px;
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: #222;
+}
+.footer-form {
+  width: 60%;
+}
+.footer-form,
+.footer-form input {
+  background-color: #31323b;
+}
+
+.footer-form input {
+  border: none;
+}
+.footer-social li {
+  width: 30px;
+  height: 30px;
+
+  background-color: #333;
+  border-radius: 50%;
+  text-align: center;
+}
+.footer-social i {
+  margin-top: 25%;
+  color: #009ad8;
+}

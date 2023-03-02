@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game OOP API</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light text-white">
+          <div class="container-fluid">
+            <h2 class="navbar-brand">
+              <img src="img/logo-sm.png" alt="" /> Games Reviews
+            </h2>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    data-category-name="mmorpg"
+                    aria-current="page"
+                    href="#"
+                    >mmorpg</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-category-name="shooter" href="#"
+                    >shooter</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-category-name="sailing" href="#"
+                    >sailing</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-category-name="permadeath" href="#"
+                    >permadeath</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-category-name="superhero" href="#"
+                    >superhero</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-category-name="pixel" href="#"
+                    >pixel</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="py-3 row gy-3" id="gamesCards"></div>
+
+      <div class="row" id="gameModal">
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/modules/ui.module.js" type="module"></script>
+  </body>
+</html>

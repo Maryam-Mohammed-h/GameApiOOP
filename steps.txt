@@ -1,0 +1,15 @@
+games.modules:
+click nav -> api fetch games by category
+
+
+
+details.modules:
+click btn -> show details for the game
+
+
+
+ui.modules:
+
+
+
+index.js:
